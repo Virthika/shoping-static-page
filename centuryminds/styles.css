@@ -1,0 +1,509 @@
+/* Custom styles for the navbar */
+h2,h3,h4,h5,h6,body{
+    font-family: unbounded;
+    font-size: 14px;
+    margin: 0%;
+    font-weight: 30px;
+}
+h1{
+    font-family: unbounded;
+  color: black;
+    font-weight: 30px;
+}
+
+.navbar-brand img {
+    max-height: 80px;
+   
+}
+
+.nav-link {
+    color: #333;
+    font-weight:30px;
+    text-transform: uppercase;
+    /* margin-right: 15px; */
+    font-size: 14px;
+}
+
+.nav-link.active {
+    color: #333;
+    text-decoration: underline;
+}
+
+.nav-link:hover {
+    color: #5b00f7;
+}
+
+.navbar-nav .nav-item:last-child .nav-link {
+    margin-right: 0;
+}
+
+.bi-person, .bi-cart {
+    font-size: 14px;
+    color: #333;
+}
+
+@media (max-width: 992px) {
+    .navbar-nav {
+        margin-top: 10px;
+    }
+}
+
+.category-card {
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.category-card:hover {
+    transform: scale(1.1);
+}
+
+.category-icon {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.category-title {
+    /* font-weight: 400px;
+    font-size: 14px; */
+    
+        display: block;
+        margin-top: 24px;
+        font-weight: bold;
+        color: #000;
+        text-transform: uppercase;
+        position: relative;
+    }
+
+
+.navbar-nav{
+    margin-left: 50px;
+}
+.navbar-brand{
+    font-size: 14px;
+   margin-right: 0px;
+}
+
+#top-header{
+    background-color: rgb(190, 208, 241);
+    margin: 0%;
+    height: 50px;
+    font-size: 13px;
+    color: #232323;
+    width: 100%;
+
+}
+
+#footera1{
+    background-color:rgb(190, 208, 241) ;
+}
+/* .text-right{
+    margin-right: 90px;
+} */
+.p{
+    font-size: 13px;
+}
+
+ h3.widget-title span{
+    
+    font-size: 30px;
+    line-height: 45px;
+    color: #000;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    z-index: 1;
+}
+
+ h3.widget-title span::before {
+    position: absolute;
+    content: '';
+    z-index: -1;
+    width: 90px;
+    height: 3px;
+    border-radius: 50px;
+    background: #2e3192;
+    bottom: 0;
+    left: 0;
+    margin: 0 auto;
+    right: 0px;
+}
+
+
+
+ h3.widget-title span::after {
+    position: absolute;
+    content: '';
+    z-index: -1;
+    width: 30px;
+    height: 3px;
+    border-radius: 50px;
+    background: #f58220;
+    bottom: 0;
+    left: 3px;
+    margin: 0 auto;
+    right: 0px;
+}
+
+.text-center {
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 27px;
+}
+body .vc_column_container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.wpb_wrapper{
+    
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 27px;
+        color: #000 !important;
+    }
+    .widget-title span {
+        font-size: 16px;
+        line-height: 30px;
+        color: #000;
+        font-weight: 500;
+        position: relative;
+        padding-bottom: 0px;
+        margin-bottom: 10px;
+        z-index: 1;
+    }
+
+    .list-unstyled{
+        font-size: 12px;
+        line-height: 30px;
+        color: #000;
+        font-weight:normal;
+        position: relative;
+        padding-bottom: 0px;
+        margin-bottom: 10px;
+        z-index: 1;
+    }
+  
+    #footera1 p, #footera1 #a2 ul li{
+         font-size: 12px;
+         color: #000;
+         font-weight: 300;
+    }
+    .col-lg-3 {
+        flex: 0 0 auto;
+        width: 27%;
+    }
+    
+    #a2 li p {
+        margin-left: 22px;
+    margin-top: -32px;
+    }
+    #a4{
+text-align: center;
+font-size: 12px;
+font-family: unbounded;
+
+border-top-width: 1px !important;
+    padding-top: 15px !important;
+    /* padding-bottom: 15px !important; */
+    border-top-style: solid !important;
+    border-color: #eeeeee !important;
+
+
+    }
+    .col-md-3 {
+        flex: 0 0 auto;
+        width: 19%;
+    }
+
+    .col-sm-4 {
+        flex: 0 0 auto;
+        width: 32%;
+    }
+   
+
+    #navbarNav li#active{
+        /* background: transparent; */
+        color: #2e3192 !important;
+        font-weight: 500;
+    line-height: normal;
+        /* border-bottom-color: transparent; */
+    }
+    .nav-item .nav-link{
+        font-size: 12px;
+    font-weight: 500;
+    color: #000 !important;
+
+    }
+    li.active>:before {
+        width: 100%;
+    }
+    .navbar-nav.megamenu>li>a:before {
+        height: 2px;
+        width: 0;
+        left: 0;
+        right: auto;
+        bottom: 0;
+        background: var(--tb-theme-color);
+        content: "";
+        position: absolute;
+        -webkit-transition: all 300ms;
+        -o-transition: all 300ms;
+        transition: all 300ms;
+    }
+    #active a{
+        text-decoration: none;
+        padding-bottom: 23px;
+    border-bottom: 2px solid #2e3192;
+    
+    }
+    #a7{
+        padding-bottom: 0;
+    }
+
+    .row {
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: calc(var(--bs-gutter-y)* -1);
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+    }
+
+    @media only screen and (max-width:480px)
+{
+
+    #top-header{
+    font-size: 9px;
+}
+}
+@media only screen and (max-width:480px)
+{
+#phone{
+    position: absolute;
+    top: 5px;
+    left: -30px;
+}
+#email{
+    position: absolute;
+    top: 4px;
+    right: 20px;
+    padding: 0 !important;
+
+}
+#s1{
+height: 200px;
+    object-fit: cover;
+    max-height: 300px;
+}
+
+#icon{
+    display:none;
+}
+#active a {
+    text-decoration: none;
+    padding-bottom: 5px;
+    border-bottom: none;
+}
+#a6 img{
+    width: 100% !important;
+
+}
+#logo{
+    width: 50%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#a6{
+    width: 100%;
+}
+#a2{
+    width:100%;
+
+}
+#footera1 .py-5{
+    padding-left: 0;
+    padding-right: 0;
+}
+.category-icon img {
+    width: 50% !important; /* Make the images responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.navbar-nav {
+    flex-direction: column;
+    align-items:start !important;
+    text-align: center;
+}
+
+}
+#a4 p{
+    margin-top: 0;
+    margin-bottom: -2rem;
+}
+
+@media only screen and (max-width:768px){
+    #s2{
+        padding-right: .0rem;
+        padding-left: .5rem;
+        font-size: 11px;
+    }
+    
+
+
+    .category-card {
+        padding: 10px;
+        text-align: center;
+    }
+    
+    .category-icon img {
+        width: 100%; /* Make the images responsive */
+        height: auto; /* Maintain aspect ratio */
+    }
+    
+    .category-title {
+        font-size: 14px; /* Adjust the title size */
+        margin-top: 10px;
+    }
+    
+    .col-md-3 {
+        flex: 0 0 50%; /* Make two columns instead of four */
+        max-width: 50%;
+    }
+    
+    .widget-title {
+        font-size: 24px; /* Adjust the font size of the title */
+    }
+
+
+    .widget-title {
+        font-size: 24px; /* Adjust the font size of the title */
+    }
+
+    .col-sm-4 {
+        flex: 0 0 100%; /* Make each column take the full width */
+        max-width: 100%;
+        margin-bottom: 20px; /* Add some space between images */
+    }
+
+    #a6 img {
+        width: 100%; /* Make images responsive */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .row {
+        justify-content: flex-start; /* Align items to start for a natural flow */
+    }
+
+   
+
+    .bd-footer .col-lg-3,
+    .bd-footer .col-lg-2 {
+        flex: 0 0 100%; /* Make each column take the full width */
+        max-width: 100%;
+        margin-bottom: 20px; /* Add space between columns */
+    }
+
+    #a2 ul {
+        padding-left: 0; /* Remove padding from the list */
+    }
+
+    #a2 ul li {
+        margin-bottom: 10px; /* Adjust spacing between list items */
+    }
+
+    #a2 h2 {
+        font-size: 20px; /* Adjust font size of headings */
+        margin-bottom: 10px; /* Reduce space below headings */
+    }
+
+    .bd-footer .col-sm-12 {
+        text-align: center; /* Center the copyright text */
+        margin-top: 20px; /* Add margin above the copyright text */
+    }
+
+    .bd-footer img {
+        max-width: 60%; /* Scale down the logo image */
+    }
+    
+    #carouselExampleControls .carousel-item img {
+        height: auto; /* Adjust height to maintain aspect ratio */
+        max-height: 400px; /* Set a maximum height for the images */
+        width: 100%; /* Ensure images take full width */
+    }
+    
+    #carouselExampleControls {
+        margin-bottom: 20px; /* Add margin below the carousel for spacing */
+    }
+    
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        width: 30px; /* Adjust the size of carousel controls */
+        height: 30px;
+    }
+
+
+    
+
+    .navbar-nav {
+        flex-direction: column; /* Stack navigation items vertically */
+        align-items: center; /* Center align the items */
+        text-align: center; /* Center align the text */
+    }
+
+    .navbar-nav.ms-auto {
+        margin-top: 20px; /* Add margin to the top for better spacing */
+    }
+
+    .navbar-nav .nav-item {
+        margin-bottom: 10px; /* Space between each nav item */
+    }
+
+    #navbarNav {
+        justify-content: center; /* Center the entire navbar content */
+    }
+
+    .nav-item #s2, .nav-item #icon {
+        font-size: 10px; /* Adjust font size for readability */
+        padding: 10px 0;
+        margin-left: 5px; /* Adjust padding for better touch targets */
+    }
+
+    .nav-item.dropdown .dropdown-menu {
+        position: static; /* Make dropdown menus stack naturally */
+        float: none; /* Prevent dropdown from floating */
+        text-align: center; /* Center align dropdown text */
+        width: 100%; /* Ensure dropdown occupies full width */
+    }
+
+    .nav-item.dropdown .dropdown-item {
+        padding: 10px 0; /* Adjust padding for dropdown items */
+    }
+
+    #icon i {
+        margin-right: 5px; /* Space between icons and text */
+    }
+
+    .navbar-toggler {
+        margin-left: auto; /* Ensure the toggler aligns right */
+    }
+    
+
+    #footera1 p, #footera1 #a2 ul li {
+        font-size: 14px;
+        color: #000;
+        font-weight: 300;}
+#s5{
+    margin-left: 20px;
+}#s6{
+   margin-right: 10px
+}
+}
